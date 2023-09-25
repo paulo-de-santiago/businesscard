@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+/*      */
+
+    background: #1A1B21;
+    color: #DCDCDC;
+    font-family: 'Inter', sans-serif;
+    width: 317px;
+/*     height: 780px; */
+/*    top: 444px;
+    left: 116px */
+}
+/*  */
+
+.header {
+    display: flex;
+    flex-direction: column; 
+   text-align: center;
+}
+
+
+.header--img {
+    width: 100%;
+}
+.header--h1 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding-bottom: 0px;
+}
+
+.header--h3 {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 400;
+    margin-top: 2px;
+
+
+}
+
+.header--portfolio {
+/*     display: block; */
+    color: #F5F5F5;
+    font-size: 12.24px;
+    line-height: 150%; /* 15.36px */
+    text-decoration: none;
+    padding: 4px;
+
+}
+
+.header--portfolio:active {
+ /*    text-decoration: underline overline #FF3028; */
+    color: #F5F5F5;
+}
+
+.header--portfolio:hover {
+    animation: bubble 0.6s ease-out;
+    color: #F3BF99;
+    text-decoration: underline overline #F3BF99;  
+}
+
+
+
+
+.header--links {
+    display: flex;
+   justify-content: space-around;
+   margin: 25px;
+  
+
+}
+
+.anchor--email,
+.anchor--linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 115px;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+      /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s
+
+}
+
+
+.anchor--email {
+    background: var(--white, #FFF);
+  
+    color: var(--gray-700, #374151);
+    font-size: 14px;
+    line-height: 16px; /* 114.286% */
+
+}
+.anchor--linkedin {
+    background: #5093E2;
+    
+    color: #FFF;
+    font-size: 14px;
+    line-height: 16px; /* 114.286% */
+
+}
+
+
+.links--img_email {
+    margin-top: 4px;
+}
+
+.links--img_linkedin {
+    margin-top: 3px;
+}
+
+
+
+.anchor--email:hover,
+.anchor--linkedin:hover {
+  animation: bubble 0.4s ease-out;
+}
+
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.main-body {
+    margin: auto;
+    width: 247px;
+/* height: 201px; */
+
+    text-align: justify;
+}
+
+.main--info, 
+.main--interests {
+    color: #DCDCDC;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
+
+.footer {
+    /* Layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  /*   width: 317px; */
+    height: 64px;
+    flex-shrink: 0;
+   /* Style */
+    border-radius: 0px 0px 10px 10px;
+   background: #161619;
+}
+
+.footer--container {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+.twitter_icon:hover, 
+.instagram_icon:hover,
+.github_icon:hover 
+{
+     animation: bubble 0.4s ease-out;
+    
+}
+
+
+.twitter_icon:active, 
+.instagram_icon:active,
+.github_icon:active {
+    background-color: white;
+}
+
