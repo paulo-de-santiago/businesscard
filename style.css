@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 .container {
@@ -9,6 +10,9 @@
     color: #DCDCDC;
     font-family: 'Inter', sans-serif;
     width: 317px;
+    margin: auto;
+  
+  
 /*     height: 780px; */
 /*    top: 444px;
     left: 116px */
